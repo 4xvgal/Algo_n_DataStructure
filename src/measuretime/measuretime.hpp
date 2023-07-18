@@ -1,3 +1,4 @@
+#pragma onces
 #include<ctime>
 
 //시간 측정을 위한 클래스

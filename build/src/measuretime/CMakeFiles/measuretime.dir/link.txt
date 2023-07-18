@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libmeasuretime.a CMakeFiles/measuretime.dir/measuretime.cpp.o
+/usr/bin/ranlib ../../lib/libmeasuretime.a

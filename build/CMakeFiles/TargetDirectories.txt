@@ -1,0 +1,8 @@
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles/rebuild_cache.dir
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/CMakeFiles/main.dir
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/CMakeFiles/rebuild_cache.dir
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime/CMakeFiles/measuretime.dir
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime/CMakeFiles/edit_cache.dir
+/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime/CMakeFiles/rebuild_cache.dir

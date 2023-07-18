@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src",
+  "command": "/usr/bin/clang++  -I/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime -g -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/main.dir/main.cpp.o -c /Users/mac/Documents/github.com/Algo_n_DataStructure/src/main.cpp",
+  "file": "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/main.cpp",
+  "output": "src/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime",
+  "command": "/usr/bin/clang++  -I/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime -g -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/measuretime.dir/measuretime.cpp.o -c /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp",
+  "file": "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp",
+  "output": "src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o"
+}
+]

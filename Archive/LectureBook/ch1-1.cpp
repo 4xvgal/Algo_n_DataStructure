@@ -14,7 +14,7 @@ public:
     void endEMeasure();
 };
 
-//measureTime 구현부
+//measureTime 구현부   
 void measureTime::startMeasure(){
     start = clock();
 }
