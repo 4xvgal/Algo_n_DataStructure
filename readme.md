@@ -1,1 +1,1 @@
-poor brain undergraduate's Repository for Algorithm and Data Structure Study
+poor brain undergraduate's Algorithm and Data Structure Study Repository
