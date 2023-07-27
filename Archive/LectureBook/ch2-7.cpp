@@ -1,3 +1,5 @@
+//ch2-7.cpp
+
 #include<iostream>
 
 #define MAX_DEGREE 101
@@ -13,8 +15,8 @@ void print_poly(Polynomial p, char str[]){
     int i;
     cout << "\t"<< str;
     for(int i=0;i<p.degree;i++) //0항 부터 최고차항까지 출력함
-        cout<< p.coef[i] <<' '<< p.degree-i;  
-    cout << p.coef[p.degree] << endl;
+        cout<< p.coef[i] <<" x^" << p.degree-i << " + ";  
+    cout << p.coef[p.degree] << ' ' << endl;
 }
 Polynomial read_poly(){
     int i;
@@ -26,6 +28,7 @@ Polynomial read_poly(){
     for(int i=0;i<=p.degree;i++){
         cin >> p.coef[i];
     }
+    return p;
 }
 //다항식의 합을 구하는 함수
 Polynomial add_poly(Polynomial a, Polynomial b){
