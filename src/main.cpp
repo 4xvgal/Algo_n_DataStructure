@@ -1,87 +1,111 @@
-//3-1.cpp
-//배열열을 이용한 int 스택의 구현
+// 3-2.cpp 
+// 클래스를 저장하는 스택
+//구조체로 작성된것들을 클래스로 변형함
 
 #include<iostream>
-#include<stdlib.h>
-#include<string.h>
+#include<string>
+#include<cstdlib>
+using namespace std;
 
 #define MAX_STACK_SIZE 100
+typedef class Student Element;
 
-typedef int Element;
-
-Element data[MAX_STACK_SIZE];
-int top;
-
-
-//오류 상황 처리를 위한 함수. 메세지 출력 후 프로그램 종료
-
-void error(std::string str){
+//에러 발생시 메세지 출력후 프로그램 종료
+void error(string str){
     std::cout << str << std::endl;
     exit(1);
 }
 
-//스택의 주요 연산 : 공통
+class Student{
+private:
+    int id;
+    string name;
+    string dept;
+public:
+    Student(){
+        id = 0;
+        name = "NULL";
+        dept = "NULL";
+    }
+    int getId(){return id;};
+    string getName(){return name;};
+    string getDept(){return dept;};
+    void setId(int input) {this -> id = input;}
+    void setName(string input) {this -> name = input;}
+    void setDept(string input) {this -> dept = input;}
+};
+class StackStudent{
+private:
+    Element data[MAX_STACK_SIZE];
+    int top;
+public:
+    StackStudent(){
+        top = -1;
+    };
+    //스택 초기화
+    void init_stack() {
+        top = -1;
+    }
+    //스택이 비어있다면 1을 리턴
+    int is_empty() {
+        return top == -1;
+    }
+    //스택이 꽉 차있다면 1을 리턴
+    int is_full() { return top == MAX_STACK_SIZE-1;}
 
-//스택 초기화
-void init_stack() {
-    top = -1;
-}
-//스택이 비어있다면 1을 리턴
-int is_empty() {
-    return top == -1;
-}
-//스택이 꽉 차있다면 1을 리턴
-int is_full() { return top == MAX_STACK_SIZE-1;}
-//스택의 현재 사이즈를 리턴
-int size() {return top+1;}
+    //스택의 현재 사이즈를 리턴
+    int size() {return top+1;}
 
-
-//스택에 푸쉬
-void push(Element e){
+    //스택에 푸쉬
+    void push(Element e){
     if(is_full() ){
-        error ("스택 포화 에러");
+        error("스택 포화 에러");
     }
     data[++top] = e;
-}
-//스택의 최상단 데이터를 삭제
-Element pop(){
+    }
+    //스택의 최상단 데이터를 삭제
+    Element pop(){
     if(is_empty()){
         error("스택 공백 에러");
     }
     return data[top--];
 }
-//스택 최상단의 데이터를 리턴
-Element peek(){
-    if(is_empty()){
-        error ("스택 공백 에러");
+    //스택 최상단의 데이터를 리턴
+    Element peek(){
+        if(is_empty()){
+            error ("스택 공백 에러");
+        }
+        return data[top];
     }
-    return data[top];
+    void print_stack(string msg);
+};
+//스택을 출력
+void StackStudent::print_stack(string msg){
+    cout << msg << "    " << size() << endl;
+    for (int i=0;i<size();i++){
+        cout << data[i].getId() << ' ' << data[i].getName() << ' '<< data[i].getDept() <<endl;
+    }
 }
 
-//스택 테스트 코드 : 요소 종류마다 수정
-void print_stack(std::string msg) {
-    int i;
-    std::cout << msg << "   " << size() << std::endl;
-    for (i=0; i<size(); i++){
-        std::cout << data[i] << "   ";
-    }
-    std::cout << std::endl;
+//데이터 입력을 위한 클래스
+Student setStudent(int id, string name, string dept){
+    Student tmp;
+    tmp.setId(id);
+    tmp.setName(name);
+    tmp.setDept(dept);
+    return tmp;
 }
+
 int main(){
-    int i;
-    
-    init_stack();
-    for(i=1;i<10;i++){
-        push(i);
-    }
-    
-    print_stack("스택 푸쉬 9회 ");
-    
-    std::cout << "pop()" << " --> " << pop() << std::endl;
-    std::cout << "pop()" << " --> " << pop() << std::endl;
-    std::cout << "pop()" << " --> " << pop() << std::endl;
-    
-    print_stack("스택 pop 3회");
+    StackStudent a;
+    Student tmp;
 
-    return 0;
+    a.init_stack();
+    a.push(setStudent(20203103, "LJM", "Computer Science"));
+    a.push(setStudent(20201111,"EUO", "Computer Science"));
+    a.push(setStudent(1,"s","d")); 
+    a.push(tmp);
+    a.print_stack("after 4 push");
+    a.pop();
+    a.print_stack("after 1 pop");
 }

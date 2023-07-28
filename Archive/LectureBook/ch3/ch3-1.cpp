@@ -3,7 +3,7 @@
 
 #include<iostream>
 #include<stdlib.h>
-#include<string.h>
+#include<string>
 
 #define MAX_STACK_SIZE 100
 
