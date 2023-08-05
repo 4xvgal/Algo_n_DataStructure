@@ -2,7 +2,7 @@
 //배열열을 이용한 int 스택의 구현
 
 #include<iostream>
-#include<stdlib.h>
+#include<cstdlib>
 #include<string>
 
 #define MAX_STACK_SIZE 100
