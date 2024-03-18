@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "lib/libmeasuretime.a"
+			"path" : "lib/libQuickSort.a"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"src/measuretime/CMakeLists.txt"
+			"src/QuickSort/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -50,14 +50,14 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk"
+					"fragment" : "-g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime"
+					"path" : "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort"
 				}
 			],
 			"language" : "CXX",
@@ -75,13 +75,13 @@
 			]
 		}
 	],
-	"id" : "measuretime::@8e6cf7cc95713815e600",
-	"name" : "measuretime",
-	"nameOnDisk" : "libmeasuretime.a",
+	"id" : "QuickSort::@5d97aea100c2af4d36af",
+	"name" : "QuickSort",
+	"nameOnDisk" : "libQuickSort.a",
 	"paths" : 
 	{
-		"build" : "src/measuretime",
-		"source" : "src/measuretime"
+		"build" : "src/QuickSort",
+		"source" : "src/QuickSort"
 	},
 	"sourceGroups" : 
 	[
@@ -105,12 +105,12 @@
 		{
 			"backtrace" : 3,
 			"compileGroupIndex" : 0,
-			"path" : "src/measuretime/measuretime.cpp",
+			"path" : "src/QuickSort/QuickSort.Test.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 3,
-			"path" : "src/measuretime/measuretime.hpp",
+			"path" : "src/QuickSort/QuickSort.hpp",
 			"sourceGroupIndex" : 1
 		}
 	],

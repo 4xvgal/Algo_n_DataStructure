@@ -112,13 +112,16 @@
 		},
 		{
 			"path" : "src/measuretime/CMakeLists.txt"
+		},
+		{
+			"path" : "src/QuickSort/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/mac/Documents/github.com/Algo_n_DataStructure/build",
-		"source" : "/Users/mac/Documents/github.com/Algo_n_DataStructure"
+		"build" : "/Users/mac/Documents/GitHub/Algo_n_DataStructure/build",
+		"source" : "/Users/mac/Documents/GitHub/Algo_n_DataStructure"
 	},
 	"version" : 
 	{

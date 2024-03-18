@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/github.com/Algo_n_DataStructure
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/Algo_n_DataStructure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/github.com/Algo_n_DataStructure/build
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/Algo_n_DataStructure/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles /Users/mac/Documents/github.com/Algo_n_DataStructure/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles /Users/mac/Documents/GitHub/Algo_n_DataStructure/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,19 @@ measuretime/fast:
 	$(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/build
 .PHONY : measuretime/fast
 
+#=============================================================================
+# Target rules for targets named QuickSort
+
+# Build rule for target.
+QuickSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QuickSort
+.PHONY : QuickSort
+
+# fast build rule for target.
+QuickSort/fast:
+	$(MAKE) $(MAKESILENT) -f src/QuickSort/CMakeFiles/QuickSort.dir/build.make src/QuickSort/CMakeFiles/QuickSort.dir/build
+.PHONY : QuickSort/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -150,6 +163,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... QuickSort"
 	@echo "... main"
 	@echo "... measuretime"
 .PHONY : help

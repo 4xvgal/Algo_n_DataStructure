@@ -7,11 +7,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/mac/Documents/github.com/Algo_n_DataStructure/CMakeLists.txt"
+  "/Users/mac/Documents/GitHub/Algo_n_DataStructure/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"
-  "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/CMakeLists.txt"
-  "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/CMakeLists.txt"
+  "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/CMakeLists.txt"
+  "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort/CMakeLists.txt"
+  "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCXXInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeGenericSystem.cmake"
@@ -43,10 +44,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/measuretime/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/QuickSort/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/main.dir/DependInfo.cmake"
   "src/measuretime/CMakeFiles/measuretime.dir/DependInfo.cmake"
+  "src/QuickSort/CMakeFiles/QuickSort.dir/DependInfo.cmake"
   )

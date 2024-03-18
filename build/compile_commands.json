@@ -1,14 +1,20 @@
 [
 {
-  "directory": "/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src",
-  "command": "/usr/bin/clang++  -I/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime -g -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/main.dir/main.cpp.o -c /Users/mac/Documents/github.com/Algo_n_DataStructure/src/main.cpp",
-  "file": "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/main.cpp",
+  "directory": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src",
+  "command": "/usr/bin/clang++  -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/main.dir/main.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/main.cpp",
+  "file": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/main.cpp",
   "output": "src/CMakeFiles/main.dir/main.cpp.o"
 },
 {
-  "directory": "/Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime",
-  "command": "/usr/bin/clang++  -I/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime -g -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/measuretime.dir/measuretime.cpp.o -c /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp",
-  "file": "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp",
+  "directory": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime",
+  "command": "/usr/bin/clang++  -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/measuretime.dir/measuretime.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/measuretime.cpp",
+  "file": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/measuretime.cpp",
   "output": "src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o"
+},
+{
+  "directory": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/QuickSort",
+  "command": "/usr/bin/clang++  -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/QuickSort.dir/QuickSort.Test.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort/QuickSort.Test.cpp",
+  "file": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort/QuickSort.Test.cpp",
+  "output": "src/QuickSort/CMakeFiles/QuickSort.dir/QuickSort.Test.cpp.o"
 }
 ]

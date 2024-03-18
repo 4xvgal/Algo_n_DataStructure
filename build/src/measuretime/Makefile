@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/github.com/Algo_n_DataStructure
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/Algo_n_DataStructure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/github.com/Algo_n_DataStructure/build
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/Algo_n_DataStructure/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime//CMakeFiles/progress.marks
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles 0
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime//CMakeFiles/progress.marks
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/clean
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/preinstall
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/preinstall
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/measuretime/CMakeFiles/measuretime.dir/rule:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/CMakeFiles/measuretime.dir/rule
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/measuretime/CMakeFiles/measuretime.dir/rule
 .PHONY : src/measuretime/CMakeFiles/measuretime.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ measuretime: src/measuretime/CMakeFiles/measuretime.dir/rule
 
 # fast build rule for target.
 measuretime/fast:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/build
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/build
 .PHONY : measuretime/fast
 
 measuretime.o: measuretime.cpp.o
@@ -135,7 +135,7 @@ measuretime.o: measuretime.cpp.o
 
 # target to build an object file
 measuretime.cpp.o:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o
 .PHONY : measuretime.cpp.o
 
 measuretime.i: measuretime.cpp.i
@@ -143,7 +143,7 @@ measuretime.i: measuretime.cpp.i
 
 # target to preprocess a source file
 measuretime.cpp.i:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.i
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.i
 .PHONY : measuretime.cpp.i
 
 measuretime.s: measuretime.cpp.s
@@ -151,7 +151,7 @@ measuretime.s: measuretime.cpp.s
 
 # target to generate assembly for a file
 measuretime.cpp.s:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.s
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.s
 .PHONY : measuretime.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

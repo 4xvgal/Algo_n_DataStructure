@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp" "src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o" "gcc" "src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o.d"
+  "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/measuretime.cpp" "src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o" "gcc" "src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

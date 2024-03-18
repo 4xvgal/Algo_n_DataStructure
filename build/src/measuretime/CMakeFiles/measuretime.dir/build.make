@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mac/Documents/github.com/Algo_n_DataStructure
+CMAKE_SOURCE_DIR = /Users/mac/Documents/GitHub/Algo_n_DataStructure
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mac/Documents/github.com/Algo_n_DataStructure/build
+CMAKE_BINARY_DIR = /Users/mac/Documents/GitHub/Algo_n_DataStructure/build
 
 # Include any dependencies generated for this target.
 include src/measuretime/CMakeFiles/measuretime.dir/depend.make
@@ -70,18 +70,18 @@ include src/measuretime/CMakeFiles/measuretime.dir/progress.make
 include src/measuretime/CMakeFiles/measuretime.dir/flags.make
 
 src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o: src/measuretime/CMakeFiles/measuretime.dir/flags.make
-src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o: /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp
+src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o: /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/measuretime.cpp
 src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o: src/measuretime/CMakeFiles/measuretime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o"
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o -MF CMakeFiles/measuretime.dir/measuretime.cpp.o.d -o CMakeFiles/measuretime.dir/measuretime.cpp.o -c /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o"
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o -MF CMakeFiles/measuretime.dir/measuretime.cpp.o.d -o CMakeFiles/measuretime.dir/measuretime.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/measuretime.cpp
 
 src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/measuretime.dir/measuretime.cpp.i"
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp > CMakeFiles/measuretime.dir/measuretime.cpp.i
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/measuretime.cpp > CMakeFiles/measuretime.dir/measuretime.cpp.i
 
 src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/measuretime.dir/measuretime.cpp.s"
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime/measuretime.cpp -o CMakeFiles/measuretime.dir/measuretime.cpp.s
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime/measuretime.cpp -o CMakeFiles/measuretime.dir/measuretime.cpp.s
 
 # Object files for target measuretime
 measuretime_OBJECTS = \
@@ -93,19 +93,19 @@ measuretime_EXTERNAL_OBJECTS =
 lib/libmeasuretime.a: src/measuretime/CMakeFiles/measuretime.dir/measuretime.cpp.o
 lib/libmeasuretime.a: src/measuretime/CMakeFiles/measuretime.dir/build.make
 lib/libmeasuretime.a: src/measuretime/CMakeFiles/measuretime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Documents/github.com/Algo_n_DataStructure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libmeasuretime.a"
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime && $(CMAKE_COMMAND) -P CMakeFiles/measuretime.dir/cmake_clean_target.cmake
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/measuretime.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/libmeasuretime.a"
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime && $(CMAKE_COMMAND) -P CMakeFiles/measuretime.dir/cmake_clean_target.cmake
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/measuretime.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/measuretime/CMakeFiles/measuretime.dir/build: lib/libmeasuretime.a
 .PHONY : src/measuretime/CMakeFiles/measuretime.dir/build
 
 src/measuretime/CMakeFiles/measuretime.dir/clean:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime && $(CMAKE_COMMAND) -P CMakeFiles/measuretime.dir/cmake_clean.cmake
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime && $(CMAKE_COMMAND) -P CMakeFiles/measuretime.dir/cmake_clean.cmake
 .PHONY : src/measuretime/CMakeFiles/measuretime.dir/clean
 
 src/measuretime/CMakeFiles/measuretime.dir/depend:
-	cd /Users/mac/Documents/github.com/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/github.com/Algo_n_DataStructure /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime /Users/mac/Documents/github.com/Algo_n_DataStructure/build /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime /Users/mac/Documents/github.com/Algo_n_DataStructure/build/src/measuretime/CMakeFiles/measuretime.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mac/Documents/GitHub/Algo_n_DataStructure /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime /Users/mac/Documents/GitHub/Algo_n_DataStructure/build /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/measuretime/CMakeFiles/measuretime.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/measuretime/CMakeFiles/measuretime.dir/depend
 

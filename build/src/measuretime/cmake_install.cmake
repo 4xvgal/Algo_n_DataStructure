@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mac/Documents/github.com/Algo_n_DataStructure/src/measuretime
+# Install script for directory: /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
