@@ -9,4 +9,7 @@ private:
 public:
     void startMeasure();
     void endEMeasure();
+    
+    void printDuration();
+    double getDuration();
 };

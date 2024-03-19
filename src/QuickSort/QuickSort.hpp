@@ -1,6 +1,9 @@
 class QuickSort{
+    //퀵소트 클래스
+    //클래스 내부의 배열은 포인터이므로 매개변수로 사용 배열을 직접적으로 접근합니다.
+    //클래스 내부의 배열은 포인터이므로 클래스 내부에서는 배열 메모리를 해제 하지 않습니다.
     private:
-        void Swap(int &a, int &b){
+        void Swap(int &a, int &b){ //두 수를 교환하는 함수
             int temp = a;
             a = b;
             b = temp;
@@ -8,10 +11,15 @@ class QuickSort{
         int *arr;
         int size;
     public:
-        QuickSort(int *arr, int size){
+        QuickSort(int *arr, int size){ //배열과 크기를 받는 생성자
             this->arr = arr;
             this->size = size;
         } 
+        QuickSort(int **arr, int size) //포인터를 받는 생성자 
+        {
+            this->arr = *arr;
+            this->size = size;
+        }
         QuickSort(){
             this-> arr= nullptr;
         };
@@ -23,7 +31,6 @@ class QuickSort{
         int * getArr(){ //배열을 반환하는 함수
             return arr;
         }
-
 };
 
 //퀵 정렬 본체 함수 구현

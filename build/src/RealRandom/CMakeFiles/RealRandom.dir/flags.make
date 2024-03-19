@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/RealRandom
+CXX_INCLUDES = -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/RealRandom
 
 CXX_FLAGSarm64 = -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3
 

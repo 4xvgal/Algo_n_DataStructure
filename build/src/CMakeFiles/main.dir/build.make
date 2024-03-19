@@ -94,6 +94,7 @@ bin/main: src/CMakeFiles/main.dir/main.cpp.o
 bin/main: src/CMakeFiles/main.dir/build.make
 bin/main: lib/libmeasuretime.a
 bin/main: lib/libQuickSort.a
+bin/main: lib/libRealRandom.a
 bin/main: src/CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/main"
 	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

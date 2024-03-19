@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src",
-  "command": "/usr/bin/clang++  -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/main.dir/main.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/measuretime -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/RealRandom -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/main.dir/main.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/main.cpp",
   "file": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/main.cpp",
   "output": "src/CMakeFiles/main.dir/main.cpp.o"
 },
@@ -16,5 +16,11 @@
   "command": "/usr/bin/clang++  -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/QuickSort.dir/QuickSort.Test.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort/QuickSort.Test.cpp",
   "file": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/QuickSort/QuickSort.Test.cpp",
   "output": "src/QuickSort/CMakeFiles/QuickSort.dir/QuickSort.Test.cpp.o"
+},
+{
+  "directory": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/RealRandom",
+  "command": "/usr/bin/clang++  -I/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/RealRandom -g -std=c++11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk -mmacosx-version-min=14.3 -o CMakeFiles/RealRandom.dir/realRandom_urandom.spec.cpp.o -c /Users/mac/Documents/GitHub/Algo_n_DataStructure/src/RealRandom/realRandom_urandom.spec.cpp",
+  "file": "/Users/mac/Documents/GitHub/Algo_n_DataStructure/src/RealRandom/realRandom_urandom.spec.cpp",
+  "output": "src/RealRandom/CMakeFiles/RealRandom.dir/realRandom_urandom.spec.cpp.o"
 }
 ]

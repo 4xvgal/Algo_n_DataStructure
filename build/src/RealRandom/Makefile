@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles /Users/mac/Documents/GitHub/Algo_n_DataStructure/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/src/RealRandom//CMakeFiles/progress.marks
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RealRandom/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mac/Documents/GitHub/Algo_n_DataStructure/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RealRandom/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,70 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RealRandom/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RealRandom/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named main
+# Convenience name for target.
+src/RealRandom/CMakeFiles/RealRandom.dir/rule:
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/RealRandom/CMakeFiles/RealRandom.dir/rule
+.PHONY : src/RealRandom/CMakeFiles/RealRandom.dir/rule
 
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/main.dir/build.make src/CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-#=============================================================================
-# Target rules for targets named measuretime
-
-# Build rule for target.
-measuretime: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 measuretime
-.PHONY : measuretime
-
-# fast build rule for target.
-measuretime/fast:
-	$(MAKE) $(MAKESILENT) -f src/measuretime/CMakeFiles/measuretime.dir/build.make src/measuretime/CMakeFiles/measuretime.dir/build
-.PHONY : measuretime/fast
-
-#=============================================================================
-# Target rules for targets named QuickSort
-
-# Build rule for target.
-QuickSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 QuickSort
-.PHONY : QuickSort
-
-# fast build rule for target.
-QuickSort/fast:
-	$(MAKE) $(MAKESILENT) -f src/QuickSort/CMakeFiles/QuickSort.dir/build.make src/QuickSort/CMakeFiles/QuickSort.dir/build
-.PHONY : QuickSort/fast
-
-#=============================================================================
-# Target rules for targets named RealRandom
-
-# Build rule for target.
-RealRandom: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RealRandom
+# Convenience name for target.
+RealRandom: src/RealRandom/CMakeFiles/RealRandom.dir/rule
 .PHONY : RealRandom
 
 # fast build rule for target.
 RealRandom/fast:
-	$(MAKE) $(MAKESILENT) -f src/RealRandom/CMakeFiles/RealRandom.dir/build.make src/RealRandom/CMakeFiles/RealRandom.dir/build
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/RealRandom/CMakeFiles/RealRandom.dir/build.make src/RealRandom/CMakeFiles/RealRandom.dir/build
 .PHONY : RealRandom/fast
+
+realRandom_urandom.spec.o: realRandom_urandom.spec.cpp.o
+.PHONY : realRandom_urandom.spec.o
+
+# target to build an object file
+realRandom_urandom.spec.cpp.o:
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/RealRandom/CMakeFiles/RealRandom.dir/build.make src/RealRandom/CMakeFiles/RealRandom.dir/realRandom_urandom.spec.cpp.o
+.PHONY : realRandom_urandom.spec.cpp.o
+
+realRandom_urandom.spec.i: realRandom_urandom.spec.cpp.i
+.PHONY : realRandom_urandom.spec.i
+
+# target to preprocess a source file
+realRandom_urandom.spec.cpp.i:
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/RealRandom/CMakeFiles/RealRandom.dir/build.make src/RealRandom/CMakeFiles/RealRandom.dir/realRandom_urandom.spec.cpp.i
+.PHONY : realRandom_urandom.spec.cpp.i
+
+realRandom_urandom.spec.s: realRandom_urandom.spec.cpp.s
+.PHONY : realRandom_urandom.spec.s
+
+# target to generate assembly for a file
+realRandom_urandom.spec.cpp.s:
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(MAKE) $(MAKESILENT) -f src/RealRandom/CMakeFiles/RealRandom.dir/build.make src/RealRandom/CMakeFiles/RealRandom.dir/realRandom_urandom.spec.cpp.s
+.PHONY : realRandom_urandom.spec.cpp.s
 
 # Help Target
 help:
@@ -176,10 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... QuickSort"
 	@echo "... RealRandom"
-	@echo "... main"
-	@echo "... measuretime"
+	@echo "... realRandom_urandom.spec.o"
+	@echo "... realRandom_urandom.spec.i"
+	@echo "... realRandom_urandom.spec.s"
 .PHONY : help
 
 
@@ -191,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mac/Documents/GitHub/Algo_n_DataStructure/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

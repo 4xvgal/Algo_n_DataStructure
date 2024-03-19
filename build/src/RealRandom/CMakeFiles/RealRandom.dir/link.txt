@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libRealRandom.a CMakeFiles/RealRandom.dir/realRandom_urandom.spec.cpp.o
+/usr/bin/ranlib ../../lib/libRealRandom.a

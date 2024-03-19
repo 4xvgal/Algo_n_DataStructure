@@ -10,5 +10,16 @@ void measureTime::startMeasure(){
 void measureTime::endEMeasure(){
     finish = clock();
     duration = (double)(finish - start) / CLOCKS_PER_SEC;
+    //std::cout << duration << " sec" << std::endl;
+}
+//시간 출력 함수
+void measureTime::printDuration() 
+{
     std::cout << duration << " sec" << std::endl;
+}
+
+//시간 반환 함수
+double measureTime::getDuration()
+{
+    return duration;
 }

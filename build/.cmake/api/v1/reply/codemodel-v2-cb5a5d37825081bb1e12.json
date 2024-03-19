@@ -23,7 +23,8 @@
 					"childIndexes" : 
 					[
 						2,
-						3
+						3,
+						4
 					],
 					"jsonFile" : "directory-src-Debug-b6cf2213fc5053b67c22.json",
 					"minimumCMakeVersion" : 
@@ -35,7 +36,7 @@
 					"source" : "src",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
@@ -50,7 +51,7 @@
 					"source" : "src/measuretime",
 					"targetIndexes" : 
 					[
-						2
+						3
 					]
 				},
 				{
@@ -67,6 +68,21 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "src/RealRandom",
+					"jsonFile" : "directory-src.RealRandom-Debug-1cd2042ad9128d987c96.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "src/RealRandom",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
@@ -78,14 +94,16 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "Algo_n_DataStructure",
 					"targetIndexes" : 
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -99,9 +117,16 @@
 					"projectIndex" : 0
 				},
 				{
+					"directoryIndex" : 4,
+					"id" : "RealRandom::@17f360e5b58310db0825",
+					"jsonFile" : "target-RealRandom-Debug-be8a33cbcde4a041d794.json",
+					"name" : "RealRandom",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "main::@145eef247bfb46b6828c",
-					"jsonFile" : "target-main-Debug-0e62ef4bd608e3f16b04.json",
+					"jsonFile" : "target-main-Debug-dedc4f9012255c26e144.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},

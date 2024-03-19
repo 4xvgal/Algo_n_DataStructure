@@ -115,6 +115,9 @@
 		},
 		{
 			"path" : "src/QuickSort/CMakeLists.txt"
+		},
+		{
+			"path" : "src/RealRandom/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

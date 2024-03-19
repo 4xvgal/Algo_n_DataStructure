@@ -1,7 +1,7 @@
 add_library(measuretime "")
 target_sources(measuretime
     PRIVATE
-        measuretime.cpp
+        ${CMAKE_CURRENT_LIST_DIR}/measuretime.cpp
     PUBLIC
         ${CMAKE_CURRENT_LIST_DIR}/measuretime.hpp
     )
