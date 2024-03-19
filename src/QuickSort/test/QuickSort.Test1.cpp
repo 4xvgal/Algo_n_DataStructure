@@ -15,8 +15,8 @@ int main(){
     measureTime m; 
 
     //프로그램 변수 선언
-    int size = 100000;
-    int range = 100000;
+    int size = 5;
+    int range = 100;
     int* arr = new int[size]; // 정렬할 배열 생성
 
     //실행
