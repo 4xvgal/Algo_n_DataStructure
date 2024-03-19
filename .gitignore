@@ -19,6 +19,7 @@ _deps
 #binaries
 build/
 build/bin/*
+build/bin/main
 out/
 bin/
 
