@@ -15,7 +15,7 @@ int main(){
     measureTime m; 
 
     //프로그램 변수 선언
-    int size = 100;
+    int size = 1000;
     int range = 100000;
     int* arr = new int[size]; // 정렬할 배열 생성
 
@@ -24,7 +24,8 @@ int main(){
         arr[i] = r.getRand() % range + 1; //랜덤값으로 배열 초기화
     }
 
-    cout << "Before Sorting" << endl;
+    cout << "Before Sorting"
+     << endl;
     for(int i=0;i<size;i++){
         cout << arr[i] << " "; //랜덤으로 생성된 배열 출력
     }
